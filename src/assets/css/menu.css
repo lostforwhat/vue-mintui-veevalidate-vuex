@@ -1,0 +1,46 @@
+.list {
+  width: 100%;
+  height: 100%;
+}
+
+.list ul { /*他里面的li在必要时拆航*/
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.list ul li {
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+.list ul li a {
+  display: inline-block;
+  /*width: 50px;*/
+  height: 50px;
+  margin: 0 auto;
+  text-decoration: none
+}
+
+.list ul li a img {
+  width: 50px;
+}
+
+.list ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.list ul li a img.img{
+  width: 50px;
+  height: 50px;
+}
+
+.list.row-3 ul li {
+  width: 33.3%;
+}
+

@@ -1,0 +1,13 @@
+select.select {
+  /*padding: 0px 25px 0px 0px;*/
+  /*border: none;*/
+  margin-bottom: 0px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: #fff url('../images/a2.jpg') no-repeat right center;
+  height: 41px;
+  display: inline;
+  width: 45%;
+  padding-left: 8%;
+}
+

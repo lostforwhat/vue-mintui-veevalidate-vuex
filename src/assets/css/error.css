@@ -1,0 +1,14 @@
+/*error-page css*/
+.err-content {
+  display:table-cell;
+  vertical-align:middle;
+  text-align: center;
+  font-size: 24px;
+  width: 100vh;
+}
+
+.err-img {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
