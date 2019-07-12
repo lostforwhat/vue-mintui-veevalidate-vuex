@@ -5,7 +5,7 @@
 const path = require('path')
 
 const publicPath = '/';
-const publicPath_build = '/smej/';
+const publicPath_build = '/app/';
 
 module.exports = {
   dev: {
@@ -15,13 +15,7 @@ module.exports = {
     assetsPublicPath: publicPath,
     proxyTable: {
       '/api':{
-        /*target: "https://yczwfws.yichang.gov.cn/ydyy/",
-        changeOrigin: true,
-        secure: false,
-        headers: {
-          Referer: "https://yczwfws.yichang.gov.cn/ydyy/"
-        },*/
-        target: "http://localhost:9191/smej_app/",
+        target: "http://localhost:9191/app/",
         changeOrigin: true,
         pathRewrite: {"^/api":""}
       }

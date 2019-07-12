@@ -3,16 +3,16 @@
     <div>
       <mt-tab-container class="page-tabbar-container" v-model="selected">
         <mt-tab-container-item id="home">
-          <ihome></ihome>
+          首页
         </mt-tab-container-item>
         <mt-tab-container-item id="ehome">
-          <ehome></ehome>
+          首页1
         </mt-tab-container-item>
         <mt-tab-container-item id="wybs">
-          <wybs></wybs>
+          首页2
         </mt-tab-container-item>
         <mt-tab-container-item id="bmfw">
-          <bmfw></bmfw>
+          首页3
         </mt-tab-container-item>
       </mt-tab-container>
       <mt-tabbar v-model="selected" fixed>
@@ -22,15 +22,15 @@
         </mt-tab-item>
         <mt-tab-item id="ehome">
           <img slot="icon" src="@/assets/images/tab/ehome.png">
-          我的e家
+          首页1
         </mt-tab-item>
         <mt-tab-item id="wybs">
           <img slot="icon" src="@/assets/images/tab/wybs.png">
-          我要办事
+          首页2
         </mt-tab-item>
         <mt-tab-item id="bmfw">
           <img slot="icon" src="@/assets/images/tab/bmfw.png">
-          便民服务
+          首页3
         </mt-tab-item>
       </mt-tabbar>
     </div>
@@ -38,11 +38,6 @@
 </template>
 
 <script>
-  import ihome from './menu/ihome'
-  import ehome from './menu/ehome'
-  import wybs from './menu/wybs'
-  import bmfw from './menu/bmfw'
-
   export default {
     name: 'home',
     data() {
@@ -50,12 +45,6 @@
         title: "首页",
         selected: "home"
       }
-    },
-    components:{
-      ihome,
-      ehome,
-      wybs,
-      bmfw
     }
   }
 

@@ -11,7 +11,7 @@ const store = new Vuex.Store({
   state: {
     token: window.localStorage.getItem("token") || '',
     isLogin: false,
-    contextPath: process.env.NODE_ENV === 'production' ? '/smej' : '',
+    contextPath: process.env.NODE_ENV === 'production' ? '/app' : '',
     requests: []
   },
   getters: {

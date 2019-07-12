@@ -43,9 +43,7 @@
         let url = '/login/login';
         let params = {
           username: this.idCard,
-          password: this.password,
-          phone: this.phone,
-          sys: '002'
+          password: this.password
         };
         let that = this;
         that.$_http.httpPost(url, params, (res) => {
